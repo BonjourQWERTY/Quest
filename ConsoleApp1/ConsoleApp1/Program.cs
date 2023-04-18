@@ -236,7 +236,7 @@ namespace Game
             Console.WriteLine("*Напишите Джинкс или Паудер");
             string answer = Console.ReadLine();
 
-			while (answer.ToLower() != "Джинкс")
+			while (answer != "Джинкс")
             {
                 Console.WriteLine("Ты ввёл неправильное действие,попробуй ещё раз:");
                 answer = Console.ReadLine();
